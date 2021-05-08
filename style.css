@@ -22,6 +22,7 @@ background-color:#f5efed;
     grid-column: 1 / 2;
     grid-row: 5 / 6;
     border-radius: 50%;
+    -webkit-animation:ping 3s ease-in-out infinite both;animation:ping 6s ease-in-out infinite both
 }
 .item-2
 {
@@ -29,6 +30,7 @@ background-color:#f5efed;
     grid-column: 5 / 8;
     grid-row: 8 / 11;
     border-radius: 50%;
+    -webkit-animation:ping 0s ease-in-out infinite both;animation:ping 3s ease-in-out infinite both
 }
 .item-3
 {
@@ -37,6 +39,7 @@ background-color:#f5efed;
     grid-row: 5 / 9;
     border-radius: 5px;
     border-radius: 50%;
+    -webkit-animation:ping 2.5s ease-in-out infinite both;animation:ping 5s ease-in-out infinite both
 }
 
 .item-4
@@ -46,6 +49,7 @@ background-color:#f5efed;
     grid-row: 5 / 7;
     border-radius: 5px;
     border-radius: 50%;
+    -webkit-animation:ping 2s ease-in-out infinite both;animation:ping 6s ease-in-out infinite both
 }
 
 .item-5
@@ -55,7 +59,7 @@ background-color:#f5efed;
     grid-row: 2 / 4;
     border-radius: 5px;
     border-radius: 50%;
+    -webkit-animation:ping 1s ease-in-out infinite both;animation:ping 7s ease-in-out infinite both
 }
 
-
-    
+@-webkit-keyframes ping{0%{-webkit-transform:scale(.2);transform:scale(.2);opacity:.8}80%{-webkit-transform:scale(1.2);transform:scale(1.2);opacity:0}100%{-webkit-transform:scale(2.2);transform:scale(2.2);opacity:0}}@keyframes ping{0%{-webkit-transform:scale(.01);transform:scale(.01);opacity:.8}80%{-webkit-transform:scale(1.2);transform:scale(1.2);opacity:0}100%{-webkit-transform:scale(2.2);transform:scale(2.2);opacity:0}}
